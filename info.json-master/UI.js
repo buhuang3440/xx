@@ -503,7 +503,7 @@ ui.start.click(function () {
     }
     threads.start(function () {
         toastLog("脚本加载中，请稍后...")
-        var link = "https://gitcode.net/qq_46173016/info.json/-/raw/master/xxqg.js"
+        var link = "https://gitee.com/xz0816/ttxs_auto/raw/master/info.json-master/xxqg.js"
  
         let resc = http.get(link, {
                 headers: {   //通过headers修复文件过大网络无法下载
