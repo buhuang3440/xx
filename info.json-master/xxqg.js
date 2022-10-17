@@ -179,7 +179,7 @@ device.keepScreenOn(3600 * 1000);
 fInfo("检测题库更新");
 const update_info = get_tiku_by_http("https://gitcode.net/qq_46173016/info.json/-/raw/master/info.json");
 fInfo("正在加载对战题库......请稍等\n题库版本:"+update_info["tiku_version"]);
-fInfo("正在下载，等待完成...");
+fInfo("如果不动就是正在下载，多等会");
 var tiku = [];
 try {tiku = get_tiku_by_http(update_info["tiku_link"]);}
 catch (e) {tiku = get_tiku_by_http(update_info["tiku_link2"]);}
