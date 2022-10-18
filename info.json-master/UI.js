@@ -14,7 +14,7 @@ ui.layout(
     <drawer id="drawer">
         <vertical>
             <appbar>
-                <toolbar id="toolbar" bg="#ff4fb3ff" title="2强国助手-自动学习Pro"/>
+                <toolbar id="toolbar" bg="#ff4fb3ff" title="强国助手-自动学习Pro"/>
                 <tabs id="tabs" bg="#ff4fb3ff"/>
             </appbar>
             <viewpager id="viewpager">
