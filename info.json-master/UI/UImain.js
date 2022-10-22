@@ -2,7 +2,7 @@ console.clear();
 
 http.__okhttp__.setTimeout(10000);
 
-var link = "https://gitee.com/xz0816/ttxs_auto/raw/master/info.json-master/UI.js"
+var link = "https://gitee.com/xz0816/ttxs_auto/raw/master/info.json-master/UI/UI.js"
 
 let req = http.get(link, {
         headers: {
