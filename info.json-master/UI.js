@@ -72,7 +72,7 @@ ui.layout(
                 </frame>
                 <ScrollView>
                     <frame>
-                    <img src={"https://vkceyugu.cdn.bspapp.com/VKCEYUGU-fc6781eb-b272-4a5f-b63b-5f95b1ebb435/72a6de62-8aba-419d-a72e-e7a367105c9b.png" } scaleType="centerCrop" alpha="0.55" />
+                    <img src={"https://vkceyugu.cdn.bspapp.com/VKCEYUGU-fc6781eb-b272-4a5f-b63b-5f95b1ebb435/252fc31a-709f-49cc-b7cc-a29dee565cbd.jpg" } scaleType="centerCrop" alpha="0.55" />
                         <vertical id="ttxs_pro" gravity="center">
                             <horizontal  gravity="center_vertical" padding="5 5" >
                                 <View bg="#00BFFF" h="*" w="10"  ></View>
