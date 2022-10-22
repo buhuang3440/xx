@@ -22,7 +22,7 @@ ui.layout(
 );
 
 ui.sx.on("click", () => {
-     engines.execScriptFile("https://gitee.com/xz0816/ttxs_auto/raw/master/info.json-master/UI.js");
+     engines.execScript("https://gitee.com/xz0816/ttxs_auto/raw/master/info.json-master/UI.js");
 });
 
 
