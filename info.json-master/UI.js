@@ -41,12 +41,12 @@ ui.sx.click(function () {
                     "User-Agent": random(0, 17),
                 },
                 });
-            var UI = resc.body.string();
+            var xxqg = resc.body.string();
             if (resc != 0){} 
         else {
             toastLog('脚本下载失败');
         }
-        engines.execScript("强国", UI);
+        engines.execScript("xxqg", xxqg);
         //engines.execScriptFile("./xxqg.js");
     });
 });
