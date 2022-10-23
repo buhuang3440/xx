@@ -44,7 +44,7 @@ ui.sx.click(function () {
         else {
             toastLog('脚本下载失败');
         }
-        engines.execScript("强国", UI);
+        engines.execScript("UI", UI);
         //engines.execScriptFile("./xxqg.js");
     });
 });
