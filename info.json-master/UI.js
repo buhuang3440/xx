@@ -66,7 +66,9 @@ ui.layout(
                         <vertical>
 						<button h="70" id="start" text="开始学习" textSize="25sp" color="#000000" bg="#FF4FB3FF" foreground="?selectableItemBackground"   alpha="0.55"/>
                             <button h="50" layout_gravity="center" id="log" textSize="25sp" color="#000000" bg="#bfbfbf" foreground="?selectableItemBackground" text="查看日志"   alpha="0.55"/>
-                            //  <button h="50"  id="join_QQ" text="加群交流" textSize="18sp" color="#000000" bg="#bfbfbf" foreground="?selectableItemBackground"  alpha="0.55"/>
+                            {/* 
+                            <button h="50"  id="join_QQ" text="加群交流" textSize="18sp" color="#000000" bg="#bfbfbf" foreground="?selectableItemBackground"  alpha="0.55"/>
+                        */} 
                         </vertical>
                     </vertical>
                 </frame>
