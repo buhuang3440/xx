@@ -545,6 +545,7 @@ function do_meizhou() {
   // 下面是倒叙作答
   if (meizhou_dao) {
     fInfo("倒序查找未做题目");
+    fTips("如不执行,请在配置页设置正序");
     //当出现已作答时，点击最后一个未作答
     while (!text("已作答").exists()) {
       scoll.scrollForward();
@@ -2386,6 +2387,9 @@ function xxqg(userinfo) {
     fInfo("已取消升级");
   });
   fInfo("开始消息通知弹窗检测");
+fTips("-----------");
+fTips("请确保强国版本为2.30(帮助页下载)否则无法执行");
+fTips("-----------");
   var nonotice_thread = threads.start(function() {
     //在新线程执行的代码
     className("android.widget.Button").text("去开启").waitFor();
