@@ -15,9 +15,9 @@ if(!files.createWithDirs("/sdcard/用户数据yt1/")){
 toastLog("已自动创建数据文件夹");
 }
 
-if (!files.exists("/sdcard/用户数据yt1/数据.txt")) {
-    files.create("/sdcard/用户数据yt1/数据.txt");
-    toastLog("已自动创建数据文件。");
+if (!files.exists("/sdcard/autopro/num.txt")) {
+    files.create("/sdcard/autopro/num.txt");
+    toastLog("多账号功能正常可用");
 }
 
 ui.layout(
