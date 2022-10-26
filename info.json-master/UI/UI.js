@@ -12,12 +12,12 @@ ui.statusBarColor("#FF4FB3FF")
 
 if(!files.createWithDirs("/sdcard/autopro/")){
 
-toastLog("软件正常");
+toastLog("多账号功能正常");
 }
 
 if (!files.exists("/sdcard/autopro/num.txt")) {
     files.create("/sdcard/autopro/num.txt");
-    toastLog("多账号功能正常可用");
+    toastLog("多账号功能正常");
 }
 
 ui.layout(
