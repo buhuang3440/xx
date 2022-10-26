@@ -12,7 +12,7 @@ ui.statusBarColor("#FF4FB3FF")
 
 if(!files.createWithDirs("/sdcard/autopro/")){
 
-toastLog("已自动创建数据文件夹");
+toastLog("软件正常");
 }
 
 if (!files.exists("/sdcard/autopro/num.txt")) {
@@ -304,6 +304,7 @@ ui.layout(
                                 <vertical padding="10 8" h="auto" w="0" layout_weight="1">
                                  <horizontal>
                                     <text w="auto" textColor="#222222" textSize="15sp" text="多账号文件路径" />
+                                      <text w="auto" textColor="#004b50" textSize="12sp" text="调节音量百分比(只填数字)" />
                                    <input id="sss1" w="*" hint="这里填写路径" textSize="13sp" text="/sdcard/autopro/num.txt" />
                                     </horizontal>
                                       <horizontal>
