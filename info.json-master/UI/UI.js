@@ -10,7 +10,7 @@ var color = "#FF4FB3FF";
 
 ui.statusBarColor("#FF4FB3FF")
 
-if(!files.createWithDirs("/sdcard/用户数据yt1/")){
+if(!files.createWithDirs("/sdcard/autopro/")){
 
 toastLog("已自动创建数据文件夹");
 }
@@ -303,9 +303,12 @@ ui.layout(
                                 </View>
                                 <vertical padding="10 8" h="auto" w="0" layout_weight="1">
                                  <horizontal>
-                                    <text w="auto" textColor="#222222" textSize="15sp" text="填写(token)文件路径" />
+                                    <text w="auto" textColor="#222222" textSize="15sp" text="填写多账号文件路径" />
                                    <input id="sss1" w="*" hint="这里填写路径" textSize="13sp" />
                                     </horizontal>
+                                      <horizontal>
+                                <button style="Widget.AppCompat.Button.Colored" id="ljcs" text="保存" padding="12dp" w="*" alpha="0.55" />
+                            </horizontal>
                                     <input id="ttxs_pro_zhanghao" text="" textSize="13sp" />
                                 </vertical>
                             </horizontal>
@@ -316,9 +319,7 @@ ui.layout(
                                 <button style="Widget.AppCompat.Button.Colored" id="ttxs_pro_reset" text="恢复默认" padding="12dp" w="*" alpha="0.55" />
                             </horizontal>
                             
-                            <horizontal>
-                                <button style="Widget.AppCompat.Button.Colored" id="ljcs" text="测试文件数据" padding="12dp" w="*" alpha="0.55" />
-                            </horizontal>
+                          
                             
                         </vertical>
                     </frame>
