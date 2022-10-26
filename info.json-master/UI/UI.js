@@ -304,7 +304,11 @@ ui.layout(
                                 <vertical padding="10 8" h="auto" w="0" layout_weight="1">
                       
                                     <text w="auto" textColor="#222222" textSize="15sp" text="多账号文件路径" />
-                                      <text w="auto" textColor="#004b50" textSize="12sp" text="调节音量百分比(只填数字)" />
+                                      <text w="auto" textColor="#004b50" textSize="12sp" text="本地文件夹内编辑内容格式为:" />
+                                        <text w="auto" textColor="#004b50" textSize="12sp" text="账号1:密码1:token(选填token)" />
+ <text w="auto" textColor="#004b50" textSize="12sp" text="账号2:密码2:token(选填token)" />
+  <text w="auto" textColor="#004b50" textSize="12sp" text="账号3:密码3:token(选填token)" />
+                                       <text w="auto" textColor="#004b50" textSize="12sp" text="--------" />
                                    <input id="sss1" w="*" hint="这里填写路径" textSize="13sp" text="/sdcard/autopro/num.txt" />
                                
                                       <horizontal>
