@@ -303,11 +303,11 @@ ui.layout(
                                 </View>
                                 <vertical padding="10 8" h="auto" w="0" layout_weight="1">
                                  <horizontal>
-                                    <text w="auto" textColor="#222222" textSize="15sp" text="填写多账号文件路径" />
-                                   <input id="sss1" w="*" hint="这里填写路径" textSize="13sp" />
+                                    <text w="auto" textColor="#222222" textSize="15sp" text="多账号文件路径" />
+                                   <input id="sss1" w="*" hint="这里填写路径" textSize="13sp" text="/sdcard/autopro/num.txt" />
                                     </horizontal>
                                       <horizontal>
-                                <button style="Widget.AppCompat.Button.Colored" id="ljcs" text="保存" padding="12dp" w="*" alpha="0.55" />
+                                <button style="Widget.AppCompat.Button.Colored" id="ljcs" text="读取" padding="12dp" w="*" alpha="0.55" />
                             </horizontal>
                                     <input id="ttxs_pro_zhanghao" text="" textSize="13sp" />
                                 </vertical>
