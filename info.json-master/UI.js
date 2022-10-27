@@ -23,7 +23,7 @@ ui.layout(
 
 ui.sx.on("click", () => {
 app.openUrl("https://docs.qq.com/doc/DWGpjcHFaZWJRWlBR");
-    }
+    });
 
 
 
