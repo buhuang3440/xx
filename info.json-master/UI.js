@@ -37,7 +37,7 @@ ui.layout(
                                     </vertical>
                                 </horizontal>
                             </card>
-                            <card w="*" h="50" margin="10 5" cardCornerRadius="2dp" cardElevation="1dp" foreground="?selectableItemBackground"   alpha="0.55">
+                            <card w="*" h="60" margin="10 5" cardCornerRadius="2dp" cardElevation="1dp" foreground="?selectableItemBackground"   alpha="0.55">
                                 <horizontal gravity="center_vertical">
                                     <vertical padding="10 8" h="auto" w="0" layout_weight="1">
                                         <text text="无障碍服务" textColor="#222222" textSize="16sp" maxLines="1" />
@@ -46,7 +46,7 @@ ui.layout(
                                     <checkbox id="autoService" marginLeft="4" marginRight="6" checked="{{auto.service != null}}" />
                                 </horizontal>
                             </card>
-                            <card w="*" h="50" margin="10 5" cardCornerRadius="2dp" cardElevation="1dp" foreground="?selectableItemBackground"   alpha="0.55">
+                            <card w="*" h="60" margin="10 5" cardCornerRadius="2dp" cardElevation="1dp" foreground="?selectableItemBackground"   alpha="0.55">
                                 <horizontal gravity="center_vertical">
                                     <vertical padding="10 8" h="auto" w="0" layout_weight="1">
                                         <text text="悬浮窗权限" textColor="#222222" textSize="16sp" maxLines="1" />
