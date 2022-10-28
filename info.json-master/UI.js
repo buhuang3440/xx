@@ -337,7 +337,7 @@ ui.join_QQ.click(function() {
     //    data: "mqqapi://card/show_pslcard?card_type=group&uin=" + qq群号,
   //      packageName: "com.tencent.mobileqq",
     //}); //打开qq群名片
-	  app.openUrl("https://docs.qq.com/doc/DWGpjcHFaZWJRWlBR");
+	//  app.openUrl("https://docs.qq.com/doc/DWGpjcHFaZWJRWlBR");
 })
 // 监听选项菜单点击
 ui.emitter.on("options_item_selected", (e, item)=>{
